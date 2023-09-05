@@ -1326,6 +1326,6 @@ input:checked+.checkmark {
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .h1-section {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../Foto/people-office@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../Foto/people-office.jpg);
   }
 }
