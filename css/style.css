@@ -115,14 +115,12 @@ body {
   max-width: 480px;
   padding: 0 16px;
   margin: 0 auto;
-  justify-content: space-between;
 }
 
 .container-footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 100%;
   padding: 0;
   margin: 0 auto;
   justify-content: center;
@@ -149,7 +147,7 @@ body {
 
 .column-container-footer-alfa {
   flex-direction: column;
-  display: flex;
+  display:flex;
   align-items: center;
   width: 100vw;
   min-width: 320px;
@@ -175,7 +173,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
 }
 
 .hamburger {
@@ -436,6 +434,7 @@ body {
   padding-bottom: 120px;
   display: none;
 
+
 }
 
 .company-activities-list {
@@ -479,7 +478,7 @@ body {
 }
 
 .icon-our-team {
-  fill: var(--color-contrast-dark);
+  fill: var(--color-contrast-brighter);
 }
 
 .icon-our-team:hover,
