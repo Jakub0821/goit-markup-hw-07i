@@ -266,6 +266,8 @@ body {
   letter-spacing: 0.72px;
   text-decoration: none;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding: 0;
   margin: 0;
@@ -295,6 +297,8 @@ body {
 
 .address-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding-left: 0;
   margin-top: auto;
@@ -304,6 +308,9 @@ body {
 }
 
 .text-contacts.tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -366,6 +373,9 @@ body {
 .text-h1-first {
   color: var(--color-contrast-brighter);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.72px;
@@ -439,12 +449,16 @@ body {
 .our-team-section {
   background-color: var(--color-contrast-bright);
   padding: 96px 0;
+  display: flex;
+  justify-content: center;
   align-items: center;
   margin-inline: auto;
 }
 
 .our-team-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 72px;
   padding-left: 0;
@@ -539,6 +553,8 @@ body {
 .portfolio-button-list {
   display: flex;
   justify-content: center;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
   margin: 0 0 72px;
   padding-left: 0;
@@ -570,6 +586,8 @@ body {
 
 .portfolio-app-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -601,12 +619,13 @@ body {
 
 .customers-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   column-gap: 16px;
   row-gap: 72px;
   padding-left: 0;
   margin: auto;
-  justify-content: center;
 }
 
 .customers {
@@ -615,6 +634,9 @@ body {
 }
 
 .customers-list-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   border: 1px solid var(--color-border-dark);
   display: block;
